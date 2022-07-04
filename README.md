@@ -98,3 +98,8 @@ Tos stop docker conatiner
 ```
 docker stop <container_id> ( First 4 letter )
 ```
+
+
+```
+python setup.py install
+```
