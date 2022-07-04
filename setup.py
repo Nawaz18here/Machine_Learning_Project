@@ -18,12 +18,13 @@ def get_requirements_list()->List[str]:
     """
     with open(REQUIREMENT_FILE_NAME) as requirements_file:
         return requirements_file.readlines().remove("-e .")
+        
 
 setup(
 name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description=DESCRIPTION,
-packages=find_packages,#["housing"]
+packages=find_packages(),#["housing"]
 install_requires=get_requirements_list()
 )
