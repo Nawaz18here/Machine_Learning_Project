@@ -42,7 +42,7 @@ git add <file_name>
 
 
 To check the git status
-````
+```
 git status
 ```
 
@@ -68,7 +68,7 @@ git remote -v
 
 To setup CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = quadirnawaj144@gmail.com
-2. HEROKU_API_KEY = <>
+2. HEROKU_API_KEY = <> (Removing my Api_Key)
 3. HEROKU_APP_NAME = first-ml-regression-app
 
 
