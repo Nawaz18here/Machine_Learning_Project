@@ -103,3 +103,9 @@ docker stop <container_id> ( First 4 letter )
 ```
 python setup.py install
 ```
+
+Install ipykernel
+
+'''
+pip install ipykernel
+'''
