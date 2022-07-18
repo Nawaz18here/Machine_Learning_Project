@@ -13,6 +13,11 @@ def main():
 
         # data_validation_config = Configuration().get_data_validation_config()
         # print(data_validation_config)
+
+        data_transformation_config = Configuration().get_data_transformation_config()
+        print(data_transformation_config)
+
+
     except Exception as e:
         logging.error(f"{e}")
         print(e)
